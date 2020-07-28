@@ -1,7 +1,7 @@
 {
     "name": "HA Ingress Proxy",
     "version": "0.0.1",
-    "slug": "ingress-proxy",
+    "slug": "ingress_proxy",
     "description": "Reverse proxy using HA ingress to devices on LAN",
     "url": "https://github.com/leroyshirto/ha-ingress-proxy",
     "startup": "services",
