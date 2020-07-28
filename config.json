@@ -1,9 +1,9 @@
 {
-    "name": "HA Internal Proxy",
+    "name": "HA Ingress Proxy",
     "version": "0.0.1",
-    "slug": "iproxy",
-    "description": "Reverse proxy using HA ingress to LAN devices",
-    "url": "https://github.com/leroyshirto/ha-iproxy",
+    "slug": "ingress-proxy",
+    "description": "Reverse proxy using HA ingress to devices on LAN",
+    "url": "https://github.com/leroyshirto/ha-ingress-proxy",
     "startup": "services",
     "ingress": true,
     "ingress_entry": "ingress.html",
@@ -21,5 +21,5 @@
     },
     "schema": {
     },
-    "image": "leroyshirto/ha-iproxy-{arch}"
+    "image": "leroyshirto/ha-ingress-proxy-{arch}"
   }
